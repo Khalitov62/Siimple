@@ -1,0 +1,87 @@
+header {
+  position: relative;
+  background-image: url(../image/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+header section .navbar .container-fluid {
+  position: absolute;
+  top: 5px;
+}
+
+header section .navbar .container-fluid h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+header section .welcome h2 {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 50px;
+}
+
+header section .please p {
+  text-align: center;
+  font-size: 30px;
+}
+
+header section .input {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+}
+
+header section .input input {
+  border-radius: 20px;
+  border-color: white;
+}
+
+header section .butto {
+  text-align: center;
+}
+
+header section .butto button {
+  border-radius: 20px;
+  background-color: #fd680e;
+  border-color: #fd680e;
+  color: white;
+  font-size: 20px;
+}
+
+main section .container .row .img img {
+  width: 600px;
+}
+
+main section .container .row .about h4 {
+  color: #5e5c5c;
+}
+
+main section .container .row .about p i {
+  color: #fd680e;
+}
+
+main .plan .mission img {
+  width: 400px;
+}
+
+main .plan .plann img {
+  width: 400px;
+}
+
+main .plan .vision img {
+  width: 400px;
+}
+
+main .plan .container .row .card .card-title {
+  text-align: center;
+  color: #743e1d;
+}
+
+main .plan .container .row .card .card-title:hover {
+  color: #fd680e;
+}
+/*# sourceMappingURL=style.css.map */
